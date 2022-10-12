@@ -1,0 +1,88 @@
+.pro-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: white;
+}
+
+.pro {
+  text-decoration: none;
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+  margin: 15px 0;
+  transition: 0.3s ease;
+  position: relative;
+}
+.pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.pro img {
+  width: 100%;
+  border-radius: 9px;
+}
+.pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+
+.pro .des h5 {
+  padding-top: 7px;
+  color: #000000;
+  font-size: 14px;
+}
+.pro .des i {
+  font-size: 14px;
+  color: rgb(216, 204, 39);
+}
+.pro .des h4 {
+  padding-top: 7px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #088178;
+}
+.pro .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 700;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 20px;
+  right: 19px;
+}
+
+.Btnabout {
+  align-items: center;
+  background-color: #000;
+  border: 1px solid rgba(54, 54, 54, 0.6);
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-weight: 500;
+  height: 45px;
+  justify-content: center;
+  margin-top: 20px;
+  opacity: 1;
+  outline: none;
+  position: relative;
+  width: 130px;
+}
+.AndroidAppSelection {
+  display: flex;
+}
+.text {
+  text-decoration: none;
+}

@@ -1,0 +1,219 @@
+.PageNumber {
+  margin-bottom: 900px;
+  margin-top: 100px;
+}
+
+#pagination {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+
+#pagination a i {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+#prodetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.single-pro-image {
+  width: 43%;
+}
+.single-pro-image img {
+  vertical-align: middle;
+}
+
+.small-img-group {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+  left: 40px;
+  margin-top: 40px;
+  padding-right: 30px;
+  width: 53%;
+}
+
+#prodetails .single-pro-details h2 {
+  padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h6 {
+  padding: 40px 0 20px 0;
+  justify-items: flex-start;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 13px;
+  color: #000;
+  font-size: 26px;
+  justify-items: flex-start;
+  padding: 10px 0 20px;
+  text-align: center;
+}
+#prodetails .single-pro-details h4 {
+  padding: 40px 0 20px 0;
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+  height: 40px;
+
+  padding: 5px 10px;
+
+  margin-bottom: 10px;
+  box-shadow: 4px 0 20px 5px rgba(0, 0, 0, 0.09);
+}
+#prodetails .single-pro-details input {
+  width: 20%;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+#prodetails .single-pro-details button {
+  justify-content: center;
+  background-color: #088178;
+  color: #fff;
+}
+#prodetails .single-pro-details button:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+#prodetails .single-pro-details div {
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.normal {
+  background-color: initial !important;
+  border: 1px solid #fff !important;
+  border-radius: 30px;
+  font-size: 14px;
+  height: 40px;
+  margin-left: 20px;
+  width: 100px;
+}
+
+.normal:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  box-shadow: 20px 20px 30px rgba (0, 0, 0, 0.2);
+  justify-content: center;
+  transition: 0.4s all;
+}
+
+#prodetails .single-pro-details h5 {
+  margin-top: 50px;
+}
+#prodetails .single-pro-details div h4 {
+  font-size: 26px;
+  padding: 40px 0 20px;
+}
+
+#prodetails .single-pro-details div {
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.feature > li {
+  align-items: flex-start;
+  margin-left: 200px;
+  text-align: start;
+}
+
+.ProductImage {
+  margin-top: -1200px;
+  width: 600px;
+}
+
+.ProductImage img {
+  padding-top: 30px;
+}
+
+.featureCardRow {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: transparent;
+  margin-bottom: -700px;
+}
+.feature3 {
+  text-align: center;
+  margin: 90px;
+}
+.pro {
+  text-decoration: none;
+  width: 23%;
+  background-color: white;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+  margin: 15px 0;
+  transition: 0.3s ease;
+  position: relative;
+}
+.pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 786px) {
+  .PageNumber {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .section-p1 {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .ProductImage {
+    width: 300px;
+  }
+  .feature > li {
+    margin-left: 20px;
+  }
+  .single-pro-image {
+    width: 100%;
+  }
+  .single-pro-details h2 {
+    width: 100% !important;
+  }
+  .ProductImage {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #prodetails .single-pro-details {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin-left: 14px;
+  }
+}

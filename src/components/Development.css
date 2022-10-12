@@ -1,0 +1,371 @@
+.DevelopmentTitle {
+  text-align: center;
+}
+.DevelopmentTitle > article {
+  text-align: center;
+}
+
+.DevelopmentTitle > article > h1 {
+  text-align: center;
+}
+.Development > .subtitle {
+  color: #b8b8b8;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  margin: 40px auto 30px;
+  text-align: center;
+  width: 76%;
+}
+
+.Development > .optiontitle {
+  margin-top: 90px;
+  text-align: center;
+  color: white;
+}
+
+.Development > .subtitle1 > h4 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  margin: 14px auto 30px;
+  text-align: center;
+  color: #b8b8b8;
+  width: 76%;
+}
+
+.Development > .subtitle2 > h4 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  margin: 14px auto 30px;
+  text-align: center;
+}
+.Development > .subtitle3 > h4 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  margin: 14px auto 30px;
+  text-align: center;
+}
+
+.Development > .subtitle4 > h4 {
+  color: #b8b8b8;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  margin: 14px auto 30px;
+  text-align: center;
+  width: 86%;
+}
+@media (max-width: 786px) {
+}
+
+/* ******************************card css design********************** */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.container1 {
+  margin-bottom: -50px;
+  /* position: relative; */
+}
+
+.container1 .card {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #232323;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.container1 .card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #9bdc28;
+  clip-path: circle(150px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container1 .card:hover:before {
+  clip-path: circle(300px at 80% -20%);
+}
+
+.container1 .card:after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 12em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 25, 0.05);
+}
+
+.container1 .card .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.container1 .card:hover .imgBx {
+  top: 0%;
+
+  transform: translateY(0%);
+}
+
+.container1 .card .imgBx img {
+  position: absolute;
+  top: 51%;
+  left: 50%;
+
+  transform: translate(-50%, -50%) rotate(-25deg);
+  width: 150px;
+}
+
+.container1 .card .contentBx {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container1 .card:hover .contentBx {
+  height: 210px;
+}
+
+.container1 .card .contentBx h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+}
+
+.container1 .card .contentBx .size,
+.container1 .card .contentBx .color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container1 .card:hover .contentBx .size {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.container1 .card:hover .contentBx .color {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.container1 .card .contentBx .size h3,
+.container1 .card .contentBx .color h3 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  color: white;
+}
+
+.container1 .card .contentBx .size span {
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  margin: 0 5px;
+  transition: 0.5s;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container1 .card .contentBx .size span:hover {
+  background: #9bdc28;
+}
+
+.container1 .card .contentBx .color span {
+  width: 20px;
+  height: 20px;
+  background: #ff0;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.container1 .card .contentBx .color span:nth-child(2) {
+  background: #9bdc28;
+}
+
+.container1 .card .contentBx .color span:nth-child(3) {
+  background: #03a9f4;
+}
+
+.container1 .card .contentBx .color span:nth-child(4) {
+  background: #e91e63;
+}
+
+.container1 .card .contentBx a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #111;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+  margin-top: 0;
+}
+
+.container1 .card:hover .contentBx a {
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.75s;
+}
+
+@media (max-width: 786px) {
+  .card:nth-child(1) {
+    display: none;
+  }
+  .card:nth-child(2) {
+    display: none;
+  }
+  .card:nth-child(3) {
+    display: none;
+  }
+}
+.btngraying {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+/* CSS */
+.button-52 {
+  top: -100px;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+#banner {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-photo/young-attractive-handsome-guy-looks-delighted-gladden-amazed_295783-533.jpg?w=1480&t=st=1659796244~exp=1659796844~hmac=51842eeea150d6a95dab9078c5bd7bcb662ba22907bc4176718465a88413ba34");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  /* background-position: ; */
+}
+
+#banner h4 {
+  color: rgb(2, 2, 2);
+  font-size: 22px;
+  margin-left: -800px;
+}
+#banner h2 {
+  color: rgb(66, 63, 63);
+  font-size: 30px;
+  margin-left: -800px;
+  padding: 10px 0;
+}
+#banner h2 span {
+  color: rgb(0, 0, 0);
+}
+#banner button {
+  cursor: pointer;
+  margin-left: -800px;
+}
+@media (max-width: 786px) {
+  #banner h4 {
+    margin-left: 3px;
+    font-size: 12px;
+  }
+  #banner h2 {
+    margin-left: 3px;
+    font-size: 17px;
+  }
+  #banner button {
+    margin-left: 3px;
+    font-size: 12px;
+  }
+}
+
+#banner button:hover {
+  background: #000000;
+  color: #fff;
+}
+
+.normal {
+  font-size: 14px;
+  font-weight: 600;
+  /* padding: 10px 2px 2px 60px; */
+  color: #000;
+
+  border: none;
+  outline: none;
+  border: 1px solid black !important;
+
+  transition: 0.2s;
+}

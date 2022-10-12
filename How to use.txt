@@ -1,0 +1,35 @@
+Doamin Hostly React Project
+
+How to use
+first, you can make select this project and you can make install the package so you can make the terminal = npm install.
+In the project directory, you can run:
+
+npm start or npm run dev
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
+
+npm run lint
+Checks the code for errors and missing things
+
+npm run format
+Formats the code according to ./prettierrc.js config
+
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
+
+npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
+then you can add firebase so, make vs code terminal = firebase deploy
+
+Any Error or Any Problem in React Website You Can Contact Me:
+Text Me:
+
+https://wa.me/+918608990584?text=
